@@ -163,7 +163,7 @@ class HelloWorldController extends Controller
     Storage::delete($filename);
 
     return response()->json([
-        'mensaje' => 'Archivo eliminado correctamente.',
+        'mensaje' => 'Eliminado con éxito',
     ], 200);
 }
 }
